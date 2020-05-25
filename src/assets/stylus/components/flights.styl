@@ -1,0 +1,38 @@
+.flights-container {
+    width: 100%;
+    // max-height: 0px;
+    overflow: hidden;
+    transition: opacity 0.3s;
+    opacity: 0;
+    
+    &--open {
+        // max-height: 500px;
+        opacity: 1;
+    }
+}
+
+.flights {
+    &__header {
+        width: 100%;
+        padding: 20px;
+        text-align: center;
+    }
+    
+    &__loading {
+        text-align: center;
+    }
+    
+    &__list {
+        width: 100%;
+    }
+    
+    &__flight {
+        width: 100%;
+        background-color: $c-white;
+        padding: 20px;
+        height: 65px;
+        margin-bottom: 10px;
+        display: flex;
+        align-items: center;
+    }
+}

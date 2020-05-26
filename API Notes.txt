@@ -1,0 +1,99 @@
+https://tequila-api.kiwi.com/v2/search?adults=1&curr=EUR&date_from=28%2F05%2F2020&date_to=30%2F05%2F2020&fly_from=london_gb&fly_to=amsterdam_nl
+
+Header
+apikey 
+ZRptrANSRtLGpvM1lA2qU0xgZiNkhat0
+
+
+From London - london_gb
+To 
+Amsterdam - amsterdam_nl
+Madrid - madrid_es
+Budapest - budapest_hu
+
+
+
+
+Return flight 
+{
+    data: [
+    ]
+}
+
+Example
+
+{
+ "id":"032d125b47ec0000ccbd55a5_0|125b10e847ed0000e26b929a_0",
+ "nightsInDest":null,
+ "duration":{
+    "departure":87900,
+    "return":0,
+    "total":87900
+ },
+ "flyFrom":"STN",
+ "cityFrom":"London",
+ "cityCodeFrom":"LON",
+ "countryFrom":{
+    "code":"GB",
+    "name":"United Kingdom"
+ },
+ "flyTo":"AMS",
+ "cityTo":"Amsterdam",
+ "cityCodeTo":"AMS",
+ "countryTo":{
+    "code":"NL",
+    "name":"Netherlands"
+ },
+ "distance":313.24,
+ "routes":[
+    [
+       "STN",
+       "AMS"
+    ]
+ ],
+ "airlines":[
+    "FR",
+    "EI"
+ ],
+ "pnr_count":2,
+ "has_airport_change":false,
+ "technical_stops":0,
+ "price":176,
+ "bags_price":{
+    "1":66.35
+ },
+ "baglimit":{
+    "hand_width":20,
+    "hand_height":40,
+    "hand_length":55,
+    "hand_weight":10,
+    "hold_width":28,
+    "hold_height":52,
+    "hold_length":78,
+    "hold_dimensions_sum":158,
+    "hold_weight":20
+ },
+ "availability":{
+    "seats":3
+ },
+ "facilitated_booking_available":false,
+ "conversion":{
+    "EUR":176
+ },
+ "quality":383.332815,
+ "booking_token":"A0hHBc9bKzeAajTWBPTAh6sQBrrv8wnsUjbw2UOTg5t369V8xre-K4hunmuFkA-rVKRrGp3OQv2lY5B8xSWS2tf7imzKVCkOtyGPCk9pJusztzkTEsPNQj4KI6ydM5SFVgQJoqGbzokNvFCwT-IWGO_oqD3DO0iGqzg2cab4yJu2FLZ6izoxF9rENW2tgLpWcrNeltY-Km3h4961L4VapybZ7rltAD0CN5ofcsl6INxCD2KLNHn3l5ihlf9sIm5HpCS7MV3fwXU9Om2oWYV1NiYWMbvHVbSI8Zvj57O6XULb5APyWepvO4a-7C7sssMSMreTZJxsyv9rmXzCDwKerJd0e9-QgEc8O_nJ8RlK1fOF18bBBBBVz9zTl6uP5PrK-PVFIJ9vCdOSVkhE9vyhyVz18flkGuuRq7wa52x0-M7hfCJk0pLgYddByN3saYj3pkD-kWobFbGEHtLNiXStfUPonF4dihqdiDTkvp_N6T1V-i5Ik-Y_pAr-lAvbE-soqXDbrbgRn2UAFBRugNKkZk5aKEOhLAyq58O_bSlXdBXEm7ajwDyNy7tg9__fmttogqqOFgZHMDKrcKWX4XzKIj9W7tIDvv8v0eqFrimcNvuZPBFOkYtI9rhapL9hzOq5ADRgBs_hvif2OhwytcELNF9V6WDw4T08mVkAivkDXQGijikTob8bz1gmpMeDaDBUw",
+ "deep_link":"https://www.kiwi.com/deep?from=STN&to=AMS&departure=30-05-2020&flightsId=032d125b47ec0000ccbd55a5_0%7C125b10e847ed0000e26b929a_0&price=176&passengers=1&affilid=matjenkinsadyentechnicalassignment&lang=en&currency=EUR&booking_token=A0hHBc9bKzeAajTWBPTAh6sQBrrv8wnsUjbw2UOTg5t369V8xre-K4hunmuFkA-rVKRrGp3OQv2lY5B8xSWS2tf7imzKVCkOtyGPCk9pJusztzkTEsPNQj4KI6ydM5SFVgQJoqGbzokNvFCwT-IWGO_oqD3DO0iGqzg2cab4yJu2FLZ6izoxF9rENW2tgLpWcrNeltY-Km3h4961L4VapybZ7rltAD0CN5ofcsl6INxCD2KLNHn3l5ihlf9sIm5HpCS7MV3fwXU9Om2oWYV1NiYWMbvHVbSI8Zvj57O6XULb5APyWepvO4a-7C7sssMSMreTZJxsyv9rmXzCDwKerJd0e9-QgEc8O_nJ8RlK1fOF18bBBBBVz9zTl6uP5PrK-PVFIJ9vCdOSVkhE9vyhyVz18flkGuuRq7wa52x0-M7hfCJk0pLgYddByN3saYj3pkD-kWobFbGEHtLNiXStfUPonF4dihqdiDTkvp_N6T1V-i5Ik-Y_pAr-lAvbE-soqXDbrbgRn2UAFBRugNKkZk5aKEOhLAyq58O_bSlXdBXEm7ajwDyNy7tg9__fmttogqqOFgZHMDKrcKWX4XzKIj9W7tIDvv8v0eqFrimcNvuZPBFOkYtI9rhapL9hzOq5ADRgBs_hvif2OhwytcELNF9V6WDw4T08mVkAivkDXQGijikTob8bz1gmpMeDaDBUw",
+ "tracking_pixel":null,
+ "transfers":[
+
+ ],
+ "type_flights":[
+    "deprecated"
+ ],
+ "virtual_interlining":true,
+ "route":[],
+ "local_arrival":"2020-05-31T09:40:00.000Z",
+ "utc_arrival":"2020-05-31T07:40:00.000Z",
+ "local_departure":"2020-05-30T08:15:00.000Z",
+ "utc_departure":"2020-05-30T07:15:00.000Z"
+}

@@ -6,10 +6,12 @@
     min-height: 50px;
     background-color: $c-white;
     margin-bottom: 10px;
-    padding: 20px;
+    padding: 8px;
     
     &__loc {
-        height: 100px;
+        height: 75px;
+        padding: 0px;
+        background-color: $c-transparent;
     }
     
     &__loc-box {
@@ -20,30 +22,32 @@
         justify-content: center;
         align-items: center;
         cursor: pointer;
-        opacity: 0.5;
         transition: all 0.2s;
+        background-color: $c-white;
         outline: 0;
         
+        &:not(:last-child) {
+            margin-right: 10px;
+        }
+        
         &--active {
-            opacity: 1;
+            background-color: $c-box-grey;
         }
         
         &:not(.select__loc-box--active):hover {
-            opacity: 0.8;
+            background-color: $c-box-light-grey;
         }
-    }
-    
-    &__date {
     }
     
     &__date-container {
         width: 100%
         display: flex;
+        flex-wrap: wrap;
     }
     
     &__date-box,
     &__ret-box {
-        width: 33.3333%;
+        width: 30%;
         padding: 20px;
         margin: 7px;
         background-color: $c-box-grey;
@@ -59,12 +63,11 @@
     }
     
     &__date-box {
+        padding: 10px;
+
         &:not(.select__date-box--active):hover {
             opacity: 0.8;
         }
-    }
-    
-    &__ret {
     }
     
     &__ret-box {
